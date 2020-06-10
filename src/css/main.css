@@ -75,7 +75,7 @@ p {
   height: 250px;
   width: 350px;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 0 18px 10px -5px rgba(70,122,255,0.12),
               10px 0 8px -8px rgba(70,122,255,0.12),
               -10px 0 8px -8px rgba(70,122,255,0.12);
@@ -86,22 +86,22 @@ p {
 
 .cardContainer:nth-of-type(1) {
   grid-area: 2 / 1 / span 1 / span 2;
-  border-top: 4px solid var(--cyan);
+  border-top: 5px solid var(--cyan);
 }
 
 .cardContainer:nth-of-type(2) {
   grid-area: 1 / 2 / span 1 / span 2;
-  border-top: 4px solid var(--red);
+  border-top: 5px solid var(--red);
 }
 
 .cardContainer:nth-of-type(3) {
   grid-area: 3 / 2 / span 1 / span 2;
-  border-top: 4px solid var(--orange);
+  border-top: 5px solid var(--orange);
 }
 
 .cardContainer:nth-of-type(4) {
   grid-area: 2 / 3 / span 1 / span 2;
-  border-top: 4px solid var(--blue);
+  border-top: 5px solid var(--blue);
 }
 
 .cardContainer h2 {
